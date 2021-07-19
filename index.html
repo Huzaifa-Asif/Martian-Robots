@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Martian Robots</span>
+    </nav>
+
+    <div class="container">
+
+        <div class="row mt-5">
+
+            <div class="col-6">
+
+                <div class="form-group">
+
+                    <label for="instructions">Robot Instructions:</label>
+                    <textarea class="form-control" id="instructions" rows="9" maxlength="100"></textarea>
+                    </textarea>
+                    <small id="emailHelp" class="form-text text-muted">No space at the start of input - Max input length: 100</small>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100" onclick="submitForm()">Submit</button>
+
+
+            </div>
+
+            <div class="col-6">
+
+                <label for="resultDisplay">Output:</label>
+                <textarea class="form-control" id="resultDisplay" rows="9" disabled></textarea>
+
+            </div>
+
+        </div>
+
+        <hr class="mt-4 mb-4" size=3>
+
+        <div class="row mb-5">
+            <div class="col-6">
+                <label>Sample Input:</label>
+                <textarea class="form-control" id="resultDisplay" rows="8" disabled>5 3
+1 1 E
+RFRFRFRF
+3 2 N
+FRRFLLFFRRFLL
+0 3 W
+LLFFFLFLFL
+                </textarea>
+            </div>
+            <div class="col-6">
+                <label>Sample Output:</label>
+                <textarea class="form-control" id="resultDisplay" rows="8" disabled>1 1 E
+3 3 N LOST
+2 3 S
+                </textarea>
+            </div>
+        </div>
+
+
+        <!-- <p id="InstructionsLine">Enter Robot Instructions.</p>
+
+        <form id="myForm" action="/action_page.php">
+    
+            <label>Robot Instructions:</label>
+            <textarea type="text" name="instructions" id="instructions"> </textarea><br><br>
+    
+            <input type="button" onclick="submitForm()" value="Submit form">
+        </form>
+    
+        <br><br><br><br> -->
+
+        <!-- <p id="output">Output</p>
+    
+        <textarea type="text" name="resultDisplay" id="resultDisplay" disabled> </textarea><br><br> -->
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
