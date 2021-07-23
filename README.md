@@ -7,7 +7,7 @@ Solution of "Martian Robots" Problem
 It is developed in HTML and JavaScript. 
 
 **For Testing**
-Open the deployed link: <https://martian-robot.heroku.com> and enter the input in "Robot Instructions" field and click on `Submit Button`.
+Open the deployed link: <https://huzaifa-asif.github.io/Martian-Robots/> and enter the input in "Robot Instructions" field and click on `Submit Button`.
 
 
 The Problem
